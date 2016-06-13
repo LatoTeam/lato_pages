@@ -1,0 +1,5 @@
+<%=raw view(:input).new(type: field.typology,
+             value: field.value,
+             name: "fields[#{field.id}]",
+             label: field.title,
+             width: field.width) %>

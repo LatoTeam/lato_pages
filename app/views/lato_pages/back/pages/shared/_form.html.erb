@@ -1,0 +1,22 @@
+<%= form_tag(lato_pages.page_path(@page.id), class: "lato-form", method: 'put') do |f| %>
+
+  <% if(core_getApplicationLanguages) %>
+    <% core_getApplicationLanguages.each do |language| %>
+      <h2 class="form-section-title"><%= language.upcase %></h2>
+      <div class="form-group <%= language %>">
+        <% @fields.where(language: language).each do |field| %>
+          <%= render 'lato_pages/back/pages/shared/input', field: field %>
+        <% end %>
+      </div>
+    <% end %>
+  <% else %>
+    <div class="form-group">
+      <% @fields.each do |field| %>
+        <%= render 'lato_pages/back/pages/shared/input', field: field %>
+      <% end %>
+    </div>
+  <% end %>
+
+  <%= button_tag PAGES_LANG['vocabolary']['save'], class: 'lato-button' %>
+
+<% end %>

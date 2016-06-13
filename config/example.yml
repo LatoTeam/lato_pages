@@ -1,0 +1,26 @@
+# Create new pages
+
+pages:
+    home:
+        name: home
+        title: Home
+        position: 1
+        superpage:
+
+# Add fields to pages
+
+fields:
+    titolo_home:
+        name: titolo
+        title: Titolo principale
+        typology: text
+        page: home
+        position: 1
+        width: large
+    descrizione_home:
+        name: descrizione
+        title: Descrizione progetto
+        typology: editor
+        page: home
+        position: 2
+        width: large

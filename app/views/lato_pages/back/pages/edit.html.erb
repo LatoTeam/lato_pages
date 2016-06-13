@@ -1,0 +1,11 @@
+<% block = view(:block).new %>
+
+<%=raw view(:actionbar).new(links: [
+    [PAGES_LANG['vocabolary']['pages'], lato_pages.pages_path]
+    ], title: @page.title) %>
+
+<%=raw block.open %>
+
+  <%= render 'lato_pages/back/pages/shared/form' %>
+
+<%=raw block.close %>

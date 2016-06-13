@@ -1,0 +1,11 @@
+
+vocabolary:
+    pages: Pagine
+    title: Titolo
+    last_edit: Ultima modifica
+    save: Salva
+
+pages:
+    failed_permission: Non hai i permessi per compiere questa azione
+    failed_update: La pagina non è stata aggiornata correttamente a causa di un errore
+    success_update: La pagina è stata aggiornata correttamente

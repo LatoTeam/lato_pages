@@ -1,0 +1,8 @@
+# Impostazione voci del menu
+menu:
+  pages_pages:
+    name: Pagine
+    url: /lato/pages
+    icon: arrowright
+    position: 10
+    permission: 5
