@@ -12,7 +12,7 @@ Il modulo **lato_pages** è in grado di offrire diverse funzionalità tra le qua
 Aggiungere la gemma alla vostra applicazione
 
 ```ruby
-gem 'lato_pages'
+gem 'lato_pages', git: 'https://github.com/LatoTeam/lato_pages.git'
 ```
 Installare la gemma ed eseguire le migrazioni
 
