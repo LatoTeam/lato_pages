@@ -4,8 +4,10 @@
     [PAGES_LANG['vocabolary']['pages'], lato_pages.pages_path]
     ], title: @page.title) %>
 
-<%=raw block.open %>
+<div class="content-row">
+  <%=raw block.open %>
 
-  <%= render 'lato_pages/back/pages/shared/form' %>
+    <%= render 'lato_pages/back/pages/shared/form' %>
 
-<%=raw block.close %>
+  <%=raw block.close %>
+</div>

@@ -2,13 +2,15 @@
 
 <%=raw view(:actionbar).new(title: PAGES_LANG['vocabolary']['pages']) %>
 
-<%=raw block.open %>
+<div class="content-row">
+  <%=raw block.open %>
 
-    <%=raw view(:index).new(head: [PAGES_LANG['vocabolary']['title'], PAGES_LANG['vocabolary']['last_edit']],
-                       elements: @pages,
-                       attributes: ['complete_title', 'edit_time'],
-                       link: lato_pages.pages_path,
-                       show_link: false,
-                       delete_link: false) %>
+      <%=raw view(:index).new(head: [PAGES_LANG['vocabolary']['title'], PAGES_LANG['vocabolary']['last_edit']],
+                         elements: @pages,
+                         attributes: ['complete_title', 'edit_time'],
+                         link: lato_pages.pages_path,
+                         show_link: false,
+                         delete_link: false) %>
 
-<%=raw block.close %>
+  <%=raw block.close %>
+</div>
