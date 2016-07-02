@@ -2,7 +2,7 @@
 
   <% if(core_getApplicationLanguages) %>
     <% core_getApplicationLanguages.each do |language| %>
-      <h2 class="form-section-title"><%= language.upcase %></h2>
+      <h2 class="form-section-title"><%= PAGES_LANG['vocabolary']['language'] %>: <%= language.upcase %></h2>
       <div class="form-group <%= language %>">
         <% @fields.where(language: language).each do |field| %>
           <%= render 'lato_pages/back/pages/shared/input', field: field %>

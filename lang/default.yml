@@ -4,6 +4,7 @@ vocabolary:
     title: Titolo
     last_edit: Ultima modifica
     save: Salva
+    language: Lingua
 
 pages:
     failed_permission: Non hai i permessi per compiere questa azione
