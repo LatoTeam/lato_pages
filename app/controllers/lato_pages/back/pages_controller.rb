@@ -59,7 +59,7 @@ module LatoPages
     # Controlla che l'utente abbia i permessi per eseguire le azioni di
     # gestione pagine
     private def control_permission
-      unless core_controlPermission(5)
+      unless core_controlPermission(6)
         flash[:warning] = PAGES_LANG['pages']['failed_permission']
         redirect_to lato_pages.pages_path and return false
       end
