@@ -1,7 +1,7 @@
 # Impostazione voci del menu
 menu:
   pages_pages:
-    name: Pagine
+    name: Pages
     url: /lato/pages
     icon: arrowright
     position: 59

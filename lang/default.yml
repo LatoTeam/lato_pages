@@ -1,12 +1,12 @@
 
 vocabolary:
-    pages: Pagine
-    title: Titolo
-    last_edit: Ultima modifica
-    save: Salva
-    language: Lingua
+    pages: Pages
+    title: Title
+    last_edit: Last edit
+    save: Save
+    language: Language
 
 pages:
-    failed_permission: Non hai i permessi per compiere questa azione
-    failed_update: La pagina non è stata aggiornata correttamente a causa di un errore
-    success_update: La pagina è stata aggiornata correttamente
+    failed_permission: You don't have permission to do this action
+    failed_update: Page is not updated because of an error
+    success_update: Page is updated
