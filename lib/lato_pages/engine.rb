@@ -19,5 +19,8 @@ module LatoPages
       end
     end
 
+    # Add interface
+    config.autoload_paths << LatoPages::Engine.root.join('lib/interface')
+
   end
 end
